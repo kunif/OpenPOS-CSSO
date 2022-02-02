@@ -748,7 +748,7 @@ namespace OpenPOS.CSSO
 
         #region OPOS ServiceObject Device Specific Method
 
-        public int CancelLoading()
+        public int CancelURLLoading()
         {
             _resultCode = (int)OPOS_Constants.OPOS_E_ILLEGAL;
             _resultCodeExtended = 0;
